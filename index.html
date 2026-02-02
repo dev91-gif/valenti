@@ -1,48 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For You ❤️</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./public/css/style.css" />
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
-
 <body>
+
     <div class="container">
 
-        <!-- Images section -->
-        <div class="banner-gif" id="photos">
-            <img src="./public/images/mid.gif" alt="banner" />
-            <img src="./public/images/yes1.jpg" alt="yes image 1" />
-            <img src="./public/images/yes2.jpg" alt="yes image 2" />
-            <!-- Add more images like this if you want -->
-            <!-- <img src="./public/images/yes3.jpg" /> -->
+        <!-- Images in sequence -->
+        <div class="image-sequence">
+            <img src="./public/images/mid.gif" alt="banner">
+            <img src="./public/images/yes1.jpg" alt="yes image 1">
+            <img src="./public/images/yes2.jpg" alt="yes image 2">
+            <!-- add more images below if you want -->
+            <!-- <img src="./public/images/yes3.jpg"> -->
         </div>
 
-        <!-- Question -->
-        <h1 id="question-heading">Will you be my valentine?</h1>
+        <h1>Will you be my valentine?</h1>
 
-        <!-- Buttons -->
         <div class="buttons">
-            <button id="yes-button"><p>Yes</p></button>
-            <button id="no-button"><p>No</p></button>
+            <button id="yes-button">Yes</button>
+            <button id="no-button">No</button>
         </div>
 
-        <!-- Message after YES -->
         <div class="message" id="message">
-            <h2 id="success-message">Yupppie, see you soonnn :3</h2>
-        </div>
-
-        <!-- Language selector (optional, kept because your JS may use it) -->
-        <div class="language-selector">
-            <label for="language-select">Choose Language:</label>
-            <select id="language-select" onchange="changeLanguage()">
-                <option value="english">English</option>
-                <option value="french">French</option>
-                <option value="thai">ภาษาไทย</option>
-            </select>
+            <h2>Yupppie, see you soonnn :3</h2>
         </div>
 
     </div>
@@ -51,3 +38,4 @@
     <script src="./public/js/script.js"></script>
 </body>
 </html>
+
